@@ -4,7 +4,8 @@ import ExpenseItem from "./components/ExpenseItem";
 function App() {
 	return (
 		<>
-			<ExpenseItem />
+			<h1>less go</h1>
+			<ExpenseItem></ExpenseItem>
 		</>
 	);
 }
