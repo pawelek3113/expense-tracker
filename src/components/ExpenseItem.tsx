@@ -1,8 +1,8 @@
 import "./ExpenseItem.css";
 export default function ExpenseItem() {
-	const expenseDate = new Date(2023, 2, 28);
-	const expenseTitle = "Car insurance";
-	const expenseAmount = 234.67;
+	const expenseDate: Date = new Date(2023, 2, 28);
+	const expenseTitle: string = "Car insurance";
+	const expenseAmount: number = 234.67;
 
 	return (
 		<div className="expense-item">
