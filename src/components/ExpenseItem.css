@@ -18,10 +18,15 @@
     justify-content: flex-start;
     flex: 1;
   }
+
+  .expense-item__date {
+    font-size: 0.80rem;
+    color: #bdbdbd;
+  }
   
   .expense-item h2 {
     color: #3a3a3a;
-    font-size: 1rem;
+    font-size: 1em;
     flex: 1;
     margin: 0 1rem;
     color: white;
@@ -31,7 +36,7 @@
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: #40005d;
+    background-color: #1B2CC1;
     border: 1px solid white;
     padding: 0.5rem;
     border-radius: 12px;

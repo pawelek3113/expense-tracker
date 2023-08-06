@@ -6,7 +6,9 @@ export default function ExpenseItem() {
 
 	return (
 		<div className="expense-item">
-			<div>{expenseDate.toDateString()}</div>
+			<div className="expense-item__date">
+				{expenseDate.toDateString()}
+			</div>
 			<div className="expense-item__description">
 				<h2>{expenseTitle}</h2>
 				<div className="expense-item__price">${expenseAmount}</div>

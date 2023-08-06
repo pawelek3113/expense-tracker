@@ -1,14 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/* 'Lato', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+'Noto Sans JP', sans-serif */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+'Roboto', sans-serif */
+
 
 * {
+  /* reset browser's default settings wildcard */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
-  margin: 0;
-  background-color: #9c9c9c;
+  background-color: #1e1e1e;
+  color:#fffaf0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+
+div, h1, h2, body {
+  border: dotted 1px red;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover, a:focus{
+  color: hsl(204, 75%, 43%);
+}
+
+a:active {
+  color: hsl(234, 75%, 53%);
 }
