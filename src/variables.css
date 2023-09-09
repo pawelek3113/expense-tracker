@@ -1,0 +1,10 @@
+:root {
+	/* COLOR PALETTE */
+	--BG-COLOR: #fff;
+	--FONT-COLOR: #1e1e1e;
+	--FONT-COLOR-DIMMED: #bdbdbd;
+    --PRIME-COLOR: #985F99;
+    /* --PRIME-COLOR: #1b2cc1; */
+	--SHADOW-COLOR: rgba(0, 0, 0, 0.25);
+	--BG-COLOR-EXPENSE-ITEM: #f8f9ff;
+}
